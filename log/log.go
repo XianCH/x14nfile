@@ -4,9 +4,11 @@ import (
 	"bytes"
 	"fmt"
 	"io"
-	"net/http"
+
 	"strconv"
 	"time"
+
+	"github.com/x14n/x14nfile/http"
 )
 
 //Log 结构体表示一个日志记录器
